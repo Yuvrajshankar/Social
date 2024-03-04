@@ -1,0 +1,12 @@
+.error {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.error .nav__image{
+    width: 60px;
+    height: 60px;
+}

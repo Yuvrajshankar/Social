@@ -1,0 +1,8 @@
+.profile123 {
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin: 0 auto;
+  padding: 20px;
+}

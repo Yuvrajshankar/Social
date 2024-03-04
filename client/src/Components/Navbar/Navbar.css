@@ -1,0 +1,85 @@
+nav {
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3498db;
+  padding: 10px 30px;
+  color: #fff;
+  width: 97%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+}
+
+.brand .nav__image {
+  height: 50px;
+  width: 50px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search__input {
+  border: none;
+  background: none;
+  outline: none;
+  padding: 8px;
+  margin: 0;
+  width: 300px;
+}
+
+.search {
+  color: #3498db;
+  cursor: pointer;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile .profile__logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.profile .logout {
+  margin: 0;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #3498db;
+  padding: 5px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.profile .logout:hover {
+  color: rgb(206, 94, 94);
+}
+
+@media screen and (max-width: 561px) {
+  nav {
+    padding: 5px 10px;
+  }
+
+  .search__input {
+    padding: 5px;
+    width: 100px;
+  }
+}

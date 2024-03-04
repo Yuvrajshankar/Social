@@ -1,0 +1,56 @@
+.main .input {
+  background-color: white;
+  padding: 20px;
+  margin-top: 100px;
+  height: fit-content;
+  width: 500px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+.main .input .img {
+  display: flex;
+  align-items: center;
+}
+
+.main .input .img img {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.main .input .img input {
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  width: 90%;
+}
+
+.main .input button {
+  margin-top: 10px;
+  padding: 8px;
+  color: white;
+  background-color: #00d5fa;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  flex: end;
+  cursor: pointer;
+}
+
+.main .input button:hover {
+  background-color: #aadee7;
+}
+
+.input12 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 550px) {
+  .main .input {
+    width: 90vw;
+  }
+}
